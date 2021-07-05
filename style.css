@@ -37,12 +37,16 @@ p {
 .link-button {
   display: inline-block;
   text-decoration: none;
-  background-image: linear-gradient(orangered, darkred);
+  background: black;
   padding: 10px 40px;
   border-radius: 5px;
   color: white;
   font-weight: 700;
   margin-top: 7px;
+  transition: 0.5s;
+}
+.link-button:hover {
+  background: red;
 }
 
 .top-banner {
